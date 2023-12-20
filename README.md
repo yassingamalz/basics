@@ -8,7 +8,6 @@ Welcome to my personal repository where I explore and implement various data str
 - [Algorithms](#algorithms)
 
 ## Data Structures
-
 - ### BasicStack
 
 In this project, I've implemented a versatile and efficient generic stack data structure. A stack follows the Last In, First Out (LIFO) principle, where elements are added and removed from the same end, known as the "top" of the stack.
