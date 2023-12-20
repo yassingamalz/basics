@@ -9,7 +9,7 @@ Welcome to my personal repository where I explore and implement various data str
 
 ## Data Structures
 
-### Generic Stack Implementation
+- ### BasicStack
 
 In this project, I've implemented a versatile and efficient generic stack data structure. A stack follows the Last In, First Out (LIFO) principle, where elements are added and removed from the same end, known as the "top" of the stack.
 
@@ -22,10 +22,6 @@ In this project, I've implemented a versatile and efficient generic stack data s
 
 #### Implementation Details
 - **File**: [BasicStack.java](src/main/java/basics/structures/stack/BasicStack.java)
-
-
-### BasicStack
-- Implementation of a generic stack data structure.
 
 ## Design Patterns
 ## Algorithms
