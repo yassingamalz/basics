@@ -79,6 +79,25 @@ In this project, I've implemented a flexible and efficient generic queue data st
 
 </details>
 
+<details>
+<summary><strong>BasicHashSet</strong></summary>
+
+![BasicHashSet Image](https://www.iunera.com/wp-content/uploads/image-264.png)
+
+In this project, I've implemented a basic hash set data structure. A hash set is a collection of unique elements, and it uses a hash table for efficient insertion, deletion, and lookup operations.
+
+#### Features
+
+- **Generics Support**: The hash set is designed to be generic, allowing it to store elements of any data type.
+- **Dynamic Sizing**: The underlying array dynamically adjusts its size to accommodate the number of elements, ensuring optimal memory usage.
+- **Add, Remove, and Contains Operations**: The hash set supports adding elements, removing elements, and checking for element existence efficiently.
+- **Collision Handling**: In case of hash collisions, this implementation uses a simple linear probing approach.
+
+#### Implementation Details
+- **File**: [BasicHashSet.java](src/main/java/basics/structures/hashtable/BasicHashSet.java)
+
+</details>
+
 ## Design Patterns
 <details>
 <summary><strong>Design Pattern 1</strong></summary>
