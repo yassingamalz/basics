@@ -31,6 +31,7 @@ Welcome to my personal repository where I explore and implement various data str
 <summary><strong>Algorithms</strong></summary>
 
 - [SingleNumber](#singleNumber)
+- [FloydCycleDetection](#floydCycleDetection)
 
 </details>
 
@@ -45,6 +46,7 @@ Welcome to my personal repository where I explore and implement various data str
 <details>
 <summary><strong>BasicStack</strong></summary>
 
+- ###BasicStack
 ![BasicStack Image](https://cdn.programiz.com/sites/tutorial2program/files/stack.png)
 
 In this project, I've implemented a versatile and efficient generic stack data structure. A stack follows the Last In, First Out (LIFO) principle, where elements are added and removed from the same end, known as the "top" of the stack.
@@ -64,6 +66,8 @@ In this project, I've implemented a versatile and efficient generic stack data s
 <details>
 <summary><strong>BasicQueue</strong></summary>
 
+- ###BasicQueue
+
 ![BasicQueue Image](https://media.geeksforgeeks.org/wp-content/uploads/20220805131014/fifo.png)
 
 In this project, I've implemented a flexible and efficient generic queue data structure. A queue follows the First In, First Out (FIFO) principle, where elements are added at the back and removed from the front.
@@ -82,6 +86,8 @@ In this project, I've implemented a flexible and efficient generic queue data st
 
 <details>
 <summary><strong>BasicHashSet</strong></summary>
+
+- ###BasicHashSet
 
 ![BasicHashSet Image](https://www.iunera.com/wp-content/uploads/image-264.png)
 
@@ -105,7 +111,8 @@ In this project, I've implemented a basic hash set data structure. A hash set is
 <details>
 <summary><strong>136 Single Number Algorithm</strong></summary>
 
-## 136 Single Number Algorithm
+- ###singleNumber
+
 #### Problem Statement
 Given an array of integers where every element appears twice except for one, find that single element.
 
@@ -118,4 +125,23 @@ We use the XOR (^) bitwise operation, exploiting its properties. XORing the same
 
 ### Implementation Details
 - **File**: [SingleNumber.java](src/main/java/basics/algorithms/SingleNumber.java)
+</details>
+<details>
+
+<summary><strong>202 Floyd's Cycle Detection Algorithm</strong></summary>
+
+- ###floydCycleDetection
+
+#### Problem Statement
+A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy.
+
+#### Algorithm Explanation
+The algorithm uses Floyd's cycle detection algorithm, also known as the "tortoise and hare" approach. We maintain two pointers, one moving at twice the speed of the other. If there is a cycle, the faster pointer will eventually catch up with the slower one. If the cycle contains the number 1, the sequence is considered happy; otherwise, it is not.
+
+#### Complexity Analysis
+- **Time Complexity**: O(log n) - The time complexity is determined by the cycle detection process.
+- **Space Complexity**: O(1) - The algorithm uses a constant amount of extra space.
+
+### Implementation Details
+- **File**: [FloydCycleDetection.java](src/main/java/basics/algorithms/FloydCycleDetection.java)
 </details>
