@@ -1,4 +1,4 @@
-package basics.basics.collections;
+package basics.basics.collections.lists;
 
 import java.time.LocalDate;
 import java.util.Comparator;

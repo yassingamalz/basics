@@ -1,5 +1,6 @@
-package basics.basics.collections;
+package basics.basics.collections.lists;
 
+import basics.basics.collections.lists.SpeedTest;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
